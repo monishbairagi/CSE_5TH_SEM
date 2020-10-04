@@ -1,0 +1,7 @@
+1. Write Shell script to print your name.
+2. Write a shell script to input 2 nos and perform arithmetic operations on them.
+3. Write a shell script to input 3 nos and print the largest amongst them.
+4. Write a shell script to input a no check whether the inputted no is positive or not.
+5. Write a shell script to print the sum of all natural numbers upto a limit
+6. Write a shell script print the sum of digits of 3 digit no
+7. Write a shell script to print the reverse of an user defined no.
