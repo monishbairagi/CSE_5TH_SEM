@@ -124,6 +124,7 @@ class BankMain{
 								flag = false;
 								break;
 							default:
+								System.out.println();
 								System.out.println("Wrong Input. Try Again.");
 						}
 					}
