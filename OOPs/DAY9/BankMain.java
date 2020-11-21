@@ -16,16 +16,22 @@ class BankUser{
 	void depositeMoney(double money){
 		balance += money;
 		System.out.println();
-		System.out.println("Rs."+money+" Deposited to Account Number - "+account_number);
+		System.out.println("Rs."+money+" Deposited to Account Number: "+account_number);
 	}
 	void withdrawMoney(double money){
-		balance -= money;
-		if(balance<0){
+		System.out.println();
+		if(balance==0){
 			System.out.println("No Money Left.");
-			balance = 0;
+		}else if(balance<money){
+			System.out.println("Sorry, You cannot Withdrawl Rs."+money);
+			System.out.println("Try to Withdrawl Rs."+balance+" or Less.");
 		}else{
-			System.out.println();
-			System.out.println("Rs."+money+" Withdrawled from Account Number - "+account_number);
+			balance -= money;
+			System.out.println("Rs."+money+" Withdrawled from Account Number: "+account_number);
+			if(balance<=0){
+				System.out.println("No Money Left.");
+				balance=0;
+			}
 		}
 	}
 	void displayAccountDetail(){
@@ -36,7 +42,7 @@ class BankUser{
 		System.out.println("User Name: "+name);
 		System.out.println("Account Number: "+account_number);
 		System.out.println("Account Type: "+account_type);
-		System.out.println("Account Balance: "+balance);
+		System.out.println("Account Balance: Rs."+balance);
 	}
 }
 class BankMain{
@@ -45,8 +51,8 @@ class BankMain{
 		int choice, ac_ty_ch, acc_num_counter=1, account_number, choice2;
 		boolean flag;
 		double money;
-		BankUser[] user = new BankUser[100];
 		String user_name, account_type = "";
+		BankUser[] user = new BankUser[100];
 		
 		while(true){
 			flag = true;
@@ -80,7 +86,7 @@ class BankMain{
 					user[acc_num_counter] = new BankUser(user_name,acc_num_counter,account_type,0);
 					System.out.println();
 					System.out.println("Your Account has been Successfully Created.");
-					System.out.println("Your Account Number is -> "+acc_num_counter);
+					System.out.println("Your Account Number: "+acc_num_counter);
 					acc_num_counter++;
 					break;
 				case 2:
@@ -120,7 +126,6 @@ class BankMain{
 							default:
 								System.out.println("Wrong Input. Try Again.");
 						}
-						
 					}
 					break;
 				case 3:
