@@ -10,7 +10,7 @@ class Test{
 		for(int i=0;i<a.length;i++){
 			a[i] = input.nextInt();
 		}
-		int s = 0, lergest = 0, smallest = 9999;
+		int s = 0, lergest = -9999, smallest = 9999;
 		for(int i=0;i<a.length;i++){
 			if(a[i]>lergest){
 				lergest = a[i];
