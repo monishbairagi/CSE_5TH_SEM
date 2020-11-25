@@ -1,0 +1,4 @@
+Create a simple java program to perform the following operations:
+1) Sum of all array elements 
+2) Find the largest and the smallest number/value in the array
+NB: The array is of type integer and value must be inputted through keyboard at runtime
