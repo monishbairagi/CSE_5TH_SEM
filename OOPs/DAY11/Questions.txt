@@ -1,0 +1,9 @@
+Q1. Create a array of 10 elements and perform the following operations:
+	1) Take the input from the user at runtime through keyboard
+	2) Count the number of ODD and Even numbers present in the array as well the elements
+
+Q2. Create a array of 10 elements and perform the following operations using 2D Array:
+	1) Take the input from the user at runtime through keyboard
+	2) Count the number of ODD and Even numbers present in the array as well the elements
+
+Q3. Create one 1D array in java. Search for some elements and print number of occurrences those inputted by the user.
