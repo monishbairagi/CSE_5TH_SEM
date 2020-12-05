@@ -172,10 +172,10 @@ void main(){
 		p[i].n = i;
 		p[i].r = p[i].b;
 	}
-	int rr = RR(p,n,tq);
-	int fcfs = FCFS(p,n);
-	int sjf = SJF(p,n);
-	int psa = PSA(p,n);
+	float rr = RR(p,n,tq);
+	float fcfs = FCFS(p,n);
+	float sjf = SJF(p,n);
+	float psa = PSA(p,n);
 	
 	if(fcfs<sjf<psa<rr){
 		printf("\nSo, First Come First Surve Algorithm will be the best.\n");
