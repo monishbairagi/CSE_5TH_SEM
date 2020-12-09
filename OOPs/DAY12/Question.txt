@@ -1,0 +1,3 @@
+Create a student class in java having following details:
+Data Members are: Name, Roll, and marks
+Method : Find_Grade(marks)
