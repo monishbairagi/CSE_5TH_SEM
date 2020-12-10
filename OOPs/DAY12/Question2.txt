@@ -1,0 +1,6 @@
+Develop one java program that takes an array 
+of integer  as input and returns the values in  ascending order[ smallest ---- largest) using bubble sort approach.
+The program should have following methods
+1) get_Data()
+2) sort_Data()
+3) disp_Data()
