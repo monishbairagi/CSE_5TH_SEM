@@ -17,12 +17,8 @@ class SortArray{
 			}
 		}
 	}
-	void disp_Data(){
-		System.out.print("\nArray After Sorting: ");
-		for(int i=0;i<a.length;i++){
-			System.out.print(a[i]+" ");
-		}
-		System.out.println("\n");
+	int[] disp_Data(){
+		return a;
 	}
 }
 
@@ -40,6 +36,12 @@ class Sort{
 		SortArray sa = new SortArray();
 		sa.get_Data(a);
 		sa.sort_Data();
-		sa.disp_Data();
+		int[] b = sa.disp_Data();
+		
+		System.out.print("\nArray After Sorting: ");
+		for(int i=0;i<b.length;i++){
+			System.out.print(b[i]+" ");
+		}
+		System.out.println("\n");
 	}
 }
