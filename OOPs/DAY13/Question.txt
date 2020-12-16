@@ -1,0 +1,13 @@
+Using new keyword to create some sequence of character and use following String functions
+1) length()
+2) substring()
+3) replace()
+4) charAt()
+5) trim()
+
+Use String literal to create some sequence of character and use following String functions
+1) compareTo()
+2) equals()
+3) concate()
+4) toUpperCase()
+5) toLoweCase()
