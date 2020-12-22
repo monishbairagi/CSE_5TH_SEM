@@ -23,4 +23,3 @@ do
 done
 
 echo "The Smallest Element of The Array is $m"
-read n
