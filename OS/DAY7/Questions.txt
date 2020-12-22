@@ -1,0 +1,4 @@
+1.Write a shell script to reverse a no;
+2.Write a shell script to print the smallest no in an array of 10 nos.
+3.Write a shell script to sort an array of 5 elements.
+4.Write a shell script to copy the content of a source file into a destination file.
