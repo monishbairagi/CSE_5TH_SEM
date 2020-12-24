@@ -1,5 +1,9 @@
-Develop one java program that takes three separate string as input from the command line and perform the following operations:
-1) chk_Arg(): Check to see the number of arguments is not less than three
-2) find_Vowel(): Determine the number of vowels present in each string arguments.
+Q1. Develop one java program that takes three separate string as input from the command line and perform the following operations:
+	1) chk_Arg(): Check to see the number of arguments is not less than three
+	2) find_Vowel(): Determine the number of vowels present in each string arguments.
+[ NB: Make sure that the second function will invoke iff the first function objective is satisfied. Make suitable assumptions. ]
 
-NB: Make sure that the second function will invoke iff the first function objective is satisfied. Make suitable assumptions
+Q2. Define the following functions in a single class, and demonstrate their use.
+	1) int add(int,int);
+	2) double add(double,double);
+	3) int add(int,int,int);
