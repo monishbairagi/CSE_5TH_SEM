@@ -1,0 +1,8 @@
+Program 1) Develop one java program to arrange the following words in the statements in some alphabetic order i.e. ascending or descending. The decision about the order must be received through the keyboard at runtime.
+Input: “Lockdown due to Covid-19 pandemic is the most talked about topic since it has put the entire world into a turmoil state”
+Output: Words arranged in either ascending or descending order.
+Example
+Input: “any time is the best time”
+Output: “any best is the time time”
+
+Step 2: Any invalid input (like numeric or special character) must be detected and reported for correction.
