@@ -1,29 +1,29 @@
-class Variable{
-	Variable(){
+class AnyVarClass{
+	AnyVarClass(){
 		System.out.println("Have not assigned any value.\n");
 	}
-	Variable(int i){
+	AnyVarClass(int i){
 		System.out.println("Type: int & Value: "+i+"\n");
 	}
-	Variable(double d){
+	AnyVarClass(double d){
 		System.out.println("Type: double & Value: "+d+"\n");
 	}
-	Variable(String s){
+	AnyVarClass(String s){
 		System.out.println("Type: String & Value: '"+s+"'\n");
 	}
-	Variable(String s, int i){
+	AnyVarClass(String s, int i){
 		System.out.println("Type: String, int & Value: '"+s+"', "+i+"\n");
 	}
 	/* So on */
 }
 
-class OverLoad{
+class MainClass{
 	public static void main(String[] args){
 		System.out.println();
-		Variable var1 = new Variable();
-		Variable var2 = new Variable(1234);
-		Variable var3 = new Variable(12.34);
-		Variable var4 = new Variable("Monish");
-		Variable var5 = new Variable("Monish", 37);
+		AnyVarClass var1 = new AnyVarClass();
+		AnyVarClass var2 = new AnyVarClass(1234);
+		AnyVarClass var3 = new AnyVarClass(12.34);
+		AnyVarClass var4 = new AnyVarClass("Monish");
+		AnyVarClass var5 = new AnyVarClass("Monish", 37);
 	}
 }
