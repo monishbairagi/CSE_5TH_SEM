@@ -1,0 +1,1 @@
+Q1. Develop one java program to implement the concepts of Single level inheritance and Mulitlevel Inheritance.
