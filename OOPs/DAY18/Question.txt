@@ -1,0 +1,1 @@
+Q1. Create a java class named ‘Rectangle’ having two data members ‘length’ and ‘breadth’. Calculate the area of the ‘Rectangle’ class using those data members. Create a subclass named 'Cube' having one data member 'height'. Now calculate the volume of the 'Cube' class using all those data.
