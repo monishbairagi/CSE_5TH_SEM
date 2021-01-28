@@ -1,0 +1,9 @@
+Q1. Addition of two numbers, with user input.
+
+Q2. Print the following pattern with row number as user input, where row number should be odd number.
+Ex. for row number as 5, the output should be - 
+*
+*   *
+*   *   *
+*   *
+*

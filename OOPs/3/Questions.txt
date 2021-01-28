@@ -1,0 +1,2 @@
+Q1. Write a JAVA program to check if a number is prime or not.
+Q2. Write a JAVA program to find factorial of a number.

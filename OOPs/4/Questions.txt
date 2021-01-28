@@ -1,0 +1,12 @@
+Q1. Write a Java program to form the following pattern.
+* 
+* * 
+* * *
+* * * *
+
+Q2. Write a Java program to form the following pattern.
+*
+*  *
+*  * *
+*  *
+*

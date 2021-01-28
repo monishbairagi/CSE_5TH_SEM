@@ -1,0 +1,10 @@
+Q1. Write a Java program to create and use bank account. The A. account should have the following members.
+	1. Name of account holder
+	2. Account number
+	3. Type of account 
+	4. Balance
+B. Operations those should be performed on the account are -
+	1. Assign initial value to the account
+	2. Deposite money
+	3. Withdraw money
+	4. Display account detail

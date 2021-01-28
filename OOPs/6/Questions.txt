@@ -1,0 +1,7 @@
+Q1. Write a program to form box objects. Box need to have three data members length, width, depth; and one method member - calculateVolume(). Demonstrate the use of calculateVolume().
+
+Q2. Write a program to form box objects. Box need to have three data members length, width, depth; and two method members - setVal() and calculateVolume(). Demonstrate the use of setVal() and calculateVolume().
+
+Q3. Design and develop a system to perform basic mathematical operations - addition, substraction, multiplication, division. The system should be designed using OOP methadology.
+	1. First identify the classes and their members.
+	2. Then write code.
