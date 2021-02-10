@@ -1,0 +1,2 @@
+Q1. Assignment on inheritance and method overriding.
+Using the sub class object you need to access the new and inherited version of the overridden method.
