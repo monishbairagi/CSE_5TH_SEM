@@ -1,0 +1,9 @@
+Q1. Develop a Java program to demonstrate the following:
+1. Define two interfaces having one common method prototype
+2. Implement both the interfaces in a single class
+3. In main, use interface type variable to access object to perform task
+
+Q2. Develop a Java program to demonstrate the following:
+1. Extend one interface
+2. Define a class that inherits another class and implements one interface
+3. Show dynamic method dispatch
