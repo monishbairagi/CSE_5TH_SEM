@@ -7,7 +7,7 @@ interface FullName extends Name{
 class Age{
 	int age = 21;
 	void printAllData(){
-		System.out.println("Name:	"+age);
+		System.out.println("Name:		"+age);
 	}
 }
 class AllInfo extends Age implements FullName{
@@ -21,12 +21,16 @@ class AllInfo extends Age implements FullName{
 class InterfaceExample2{
 	public static void main(String args[]){
 		
+		Age a = new Age();
 		AllInfo n = new AllInfo();
-		n.printAllData();
+		Age ref;
 		
 		System.out.println();
-		
-		Age a = n;
+		ref = a;
 		a.printAllData();
+		
+		System.out.println();
+		ref = n;
+		n.printAllData();
 	}
 }
