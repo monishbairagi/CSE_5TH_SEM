@@ -172,12 +172,13 @@ void main(){
 		p[i].n = i;
 		p[i].r = p[i].b;
 	}
-	float rr = RR(p,n,tq);
-	float fcfs = FCFS(p,n);
+//	float rr = RR(p,n,tq);
+//	float fcfs = FCFS(p,n);
 	float sjf = SJF(p,n);
-	float psa = PSA(p,n);
+	printAllData(p,n);
+//	float psa = PSA(p,n);
 	
-	if(fcfs<sjf<psa<rr){
+/*	if(fcfs<sjf<psa<rr){
 		printf("\nSo, First Come First Surve Algorithm will be the best.\n");
 	}else if(sjf<psa<rr){
 		printf("\nSo, Shortest Job First Algorithm will be the best.\n");
@@ -185,5 +186,5 @@ void main(){
 		printf("\nSo, Priority Schedule Algorithm will be the best.\n");
 	}else{
 		printf("\nSo, Round Robin Algorithm will be the best.\n");
-	}
+	}*/
 }
