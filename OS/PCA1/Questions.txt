@@ -1,0 +1,5 @@
+PCA1 : Operating System Lab Assignment
+1.	Write a menu driven shell script program to display and executes  commands like 1) ls, 2) date, 3) pwd, 4) who; according to the user choice.
+2.	Create a file. Display the file permission. Change the file permission to rw- rw- rw-.
+3.	Write a C program to create a ZOMBIE process and explain briefly about zombie process.
+4.	Write a C program to create two child processes and prove that they belong to the same parent.

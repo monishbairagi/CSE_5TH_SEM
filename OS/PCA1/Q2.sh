@@ -4,7 +4,6 @@ touch $fileName;
 echo "$fileName file has been created.";
 echo -n "$fileName file permission: ";
 echo "$(ls -l $fileName)" | cut -c1-9;
-echo "Changeing $fileName file permission to rw-rw-rw-";
 chmod 666 $fileName;
-echo -n "$fileName file permission has been changed to: ";
+echo -n "$fileName file permission has been changed to ";
 echo "$(ls -l $fileName)" | cut -c1-9;
