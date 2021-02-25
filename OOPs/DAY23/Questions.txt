@@ -1,0 +1,4 @@
+Q1. Do the following:-
+	1) Creae threads using the Runnable interface
+	2) Create  threads using the Thread Class
+	3) Describe in ur own way the life cycle of Thread
