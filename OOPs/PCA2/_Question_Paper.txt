@@ -3,5 +3,3 @@
 2. Develop one java program that successfully implements the concept of Nested Exception handling. 	[5]
 	
 3. Create two classes under a package. In one class define a final class and a final method. In the other class, define members with protected and default access specifiers. Import the classes in another package, and do necessary implementations to show the use of those two classes and their members. 	[20]
-
-								
