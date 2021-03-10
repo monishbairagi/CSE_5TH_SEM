@@ -1,0 +1,30 @@
+~~~~:OS LAB Programs:~~~~
+----------------------------------------
+
+1. Write a shell script to sort a list of array elements using any sorting techniques.
+2. Write a shell script to check whether a given number is Armstrong number or not.
+3. Write a shell script that accepts a number from the user and displays the squares of all the numbers from 1 up to that umber.
+4. Write a shell script to search an element from an array.
+5. Write a shell script to find out the sum and average of all elements from a given array.
+6. Write a shell script to check whether a number entered through keyboard is palindrome or not.
+7. Write a script to accept the file and directory name from the user. The script should check whether
+both the file and the directory exist on the disk drive. If they so then the file is to be copied in that directory specified.
+8. Write a menu driven shell script program to display and executes commands like 
+    1) ls
+    2) date
+    3) pwd
+    4) who
+according to the user choice.
+9. Write a Shell Script to check whether a number is odd or even.
+10. Write a Shell Script to find out the smallest and largest element from an array.
+11. Write a C program to create a child process and then print the child process id, parent process id, parent’s grand process id.
+12. Write a C program to create two child processes and prove that they belong to the same parent.
+13. Write a C program to create a zombie process and explain briefly about zombie process.
+14. Write a C program to create an orphan process and explain briefly about zombie process.
+15. Write a C program to implement FCF or SJF or Priority or Round Robin non preemptive CPU Scheduling algorithm with suitable input given below.
+Process	Burst Time
+P0	4
+P1	7
+P2	3
+16. Write a C program to implement the concept of Dining Philosopher problem using semaphore.
+17. Write a C program to implement the concept of FIFO page replacement algorithm.
